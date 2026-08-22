@@ -1,0 +1,79 @@
+<h1>Olá mundo</h1> 
+<h2> Isso é uma mentira</h2> 
+<p> Esse é o primeiro site da <i>Maria Stella</i></p> 
+
+<h2> Isso é uma verdade </h2>
+<p> Essa é a 4ª vez que aprendo isso em aula de <b>TI</b> </p>
+
+
+<h2>Esse é o meu paragrafo de duas linhas </h2>
+<p> Essa é a minha primeira linha <br>
+    essa é a segunda linha 
+</p>
+
+<h2> Meu formulário</h2>
+<p>Preencha as informações abaixo </p>
+
+<form id="formRegister">
+    Nome: <input 
+        id="iName"
+        type="text" 
+        placeholder="Digite o seu nome completo"
+     /> 
+
+    Email: <input 
+        id="iEmail"
+        type="email" 
+        placeholder="Digite o seu melhor email" 
+    /><br>
+
+    Password: <input
+        id="iPass"
+         type="password" 
+         placeholder="Letra maiuscula e números"
+    /> 
+    Data de nascimento 
+        <input type="date" 
+        id="iBirth"
+    /><br>
+
+    <button type="submit"> Salvar </button>
+
+</form>
+
+<h2>Resposta</h2>
+
+<p id="pResponse"></p>
+
+
+<script>
+    //document é a pagina toda
+    //get pegar elemento do html
+    //var é uma variavel global
+    //e é event
+
+    var formR = document.getElementById("formRegister"); 
+    formR.addEventListener("submit", (e)=>{
+        e.preventDefault();//impede de atualizar a pagina
+        
+        let name =document.getElementById("iName").value;
+        let email =document.getElementById("iEmail").value;
+        let pass=document.getElementById("iPass").value;
+        let birth =document.getElementById("iBirth").value;
+      
+        const user = { //objeto anônimo,estrutura, json 
+            Nome: name,
+            Email: email,
+            Senha: pass,
+            Nascimento: birth
+        }
+
+        let response = document.getElementById("pResponse")
+        response.innerHTML = JSON.stringify (user);
+      
+    })
+
+
+</script>
+
+<br>

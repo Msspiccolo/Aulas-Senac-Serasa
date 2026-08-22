@@ -1,0 +1,221 @@
+body{
+    background-color: #fefefe;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 400; /*Isso é o peso da font, o quanto de negrito é colocado*/
+    font-style: normal;
+    color: #000000;
+    margin:0;
+}
+
+h2{
+ color:#0f0f0f;
+ margin:3%;
+ justify-content:center ;
+}
+
+h3{
+ color:#0f0f0f;
+ margin:3%;
+ justify-content:center;
+}
+
+text{
+    color: #003daf;
+    font-size: 15px;
+}
+
+.text-center{
+    text-align: center;
+    
+}
+.text-right{
+    text-align: right;
+}
+
+.text-justify{
+    text-align: justify;
+}
+
+
+p{
+    color:#003daf;
+    font-size: 15px;
+}
+
+a{
+    color:#001861;
+    text-decoration: none; /*Tira o sublinhado do link*/
+    margin:5px;
+       
+    
+    
+}
+
+section{
+    /*margin: 0 5% 50px 5%; /*T R B L* //*50px 0; |Y X| */
+    /*padding: 50px; /*Muda o tamanho do interno */
+
+}
+
+#about{ /*O # significa que é um ID*/
+    background-color: #d8e4f68f;
+
+}
+
+.max-w-lg{  /*Max= Maximo/ w = Widht = lg = Largura*/  /*Quando utilizamos ponto na frente, significa que estamos falando de uma classe*/
+    max-width: 800px;
+    
+}
+
+.mx-auto{ /*mx= Margin largura*/
+    margin-left:auto;
+    margin-right:auto;
+
+}  
+
+.mx-4{
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+.py-1{
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.py-2{/*p = Padding Y cima (top button- vertical)*/
+    padding-top: 4px;
+    padding-bottom: 4px;
+} 
+.py-3{
+    padding: top 8px;
+    padding-bottom: 8px;
+}
+
+.py-4{
+    padding-top:16px;
+    padding-bottom: 16px;
+}
+.py-5{
+    padding-top:32px;
+    padding-bottom:32px;
+}
+
+.py-6{
+    padding-top:64px;
+    padding-bottom:64px;
+}
+
+.px-2{
+    padding-left:4px;
+    padding-right:4px;
+}
+.px-4{
+    padding-left:16px;
+    padding-right:16px;
+
+}
+
+.p-2{ /*As classes de P, que mais usamos*/
+    padding:4px;
+}
+
+.bg-blue{
+    background-color: blue;
+    
+}
+
+.bg-white{
+    background-color: #fefefe;
+}
+
+.text-white{
+    color:#ffffff;
+
+}
+
+.rounded{
+    border-radius: 4px;
+}
+
+.rounded-md{
+    border-radius: 6px;
+
+}
+
+.rounded-lg{
+    border-radius: 8px;
+}
+
+.rounded-x1{
+    border-radius: 12px;
+}
+
+.rounded-full{
+    border-radius: 9999px;
+}
+.flex{
+    display:flex; /*Flex -> Divide o texto em colunas*/
+}
+
+.items-center{
+    align-items:center;
+}
+
+.ml-auto{
+    margin-left:auto;
+}
+.mr-2{
+    margin-right: 4px;
+   
+}
+.mr-4{
+    margin-right: 16px;
+}
+
+.mr-5{
+    margin-right:32px;
+}
+.gap-2{
+    gap:8px;
+}
+
+.gap-4{
+    display: 16px;
+}
+.gap-8{
+    display:32px;
+}
+
+.shadow{
+    box-shadow: 0 1px 3px  rgba(0,0,0,0.15);
+    -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.15);
+}
+
+.shadow-md{
+    box-shadow: 0 4px 6px rgba(0,0,0,0.15);
+    -webkit-box-shadow: 0 4px 6px rgba(0,0,0,0.15);
+}
+
+.shadow-lg{
+    box-shadow: 0 10px 15px rgba(0,0,0,0.15);
+    -webkit-box-shadow: 0 10px 15px rgba(0,0,0,0.15);
+}
+.absolute{
+    position: absolute;
+}
+
+.fixed{
+    position:fixed;
+}
+
+.left-0{
+    left:0;
+}
+.bottom-0{
+    bottom:0;
+}
+.w-full{
+    width: 100%;
+}

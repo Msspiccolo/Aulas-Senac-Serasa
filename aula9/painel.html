@@ -1,0 +1,63 @@
+<html>
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+DE+SAS+Guides&family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+
+</head>
+
+<body>
+    <nav class="flex items-center py-2 px-4 shadow-lg fixed absolute top-0 bg-white w-full">
+        <!-- Navegação tem os navegadores, menus e botões-->
+
+        <a class="mr-2 py-2 px-2 hover:bg-primary" href="#about">Sobre</a>
+        <a class="mr-2 py-2 px-2 hover:bg-primary" href="#prices"> Preços</a>
+        <a class="mr-2 py-2 px-2 hover:bg-primary" href="#features">Benefícios</a>
+        <a class="mr-5 py-2 px-4 bg-primary hover:shadow-inner text-white rounded ml-auto shadow left-0"
+            href="index.html">Menu</a>
+
+    </nav>
+
+    <pre id="pResponse"></pre>
+
+</br>
+
+<section id="formRegistro">
+<h2 id ="welcome"></h2>
+<h3 id = "usuarios" ></h3>
+
+<form id="formRegister">
+    Nome: <input 
+        id="iName"
+        type="text" 
+        placeholder="Digite o seu nome completo:"
+     /> 
+
+    Email: <input 
+        id="iEmail"
+        type="email" 
+        placeholder="Digite o seu melhor email:" 
+    /><br>
+
+    Password: <input
+        id="iPass"
+         type="password" 
+         placeholder="Letra maiuscula e números"
+    /> 
+    Data de nascimento 
+        <input type="date" 
+        id="iBirth"
+    /><br>
+</br>
+    <button type="submit"> Salvar </button>
+
+</form>
+
+</section>
+<pre id="lUsers"></pre>
+
+<script src="user.js"></script>
+
+
