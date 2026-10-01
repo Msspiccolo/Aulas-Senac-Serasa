@@ -43,9 +43,11 @@
    7. SELETORES POR TAG
    ========================================================= */
 body {
-  background-color: #fefefe;
-  font-family:Arial, Helvetica, sans-serif;
-  font-weight: 200;
+  background-color: #06234e;
+  font-family:"Arial, Helvetica, Sans-serif";
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 800;
   color: #000000;
   margin: 0;
 }
@@ -53,6 +55,7 @@ body {
 h2 {
   color: #000000;
   font-family: 'Times New Roman', Times, serif;
+  font-weight: 800;
 }
 
 p {
@@ -99,24 +102,23 @@ a {
 
 #formlogin{
   max-width:max-content;
-  max-height: max-content;
   background: #ffffff;
-  padding: 100px 100px;
-  border-radius: 20px;
-  box-shadow: 25px 45px 60px rgba(0, 0, 0, 0.2);
-  margin: 50px auto;
+  padding: 10px 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+  margin: 100px auto;
+  text-align: center;
   
 }
 
 #formRegistro{
-  max-width:max-content;
-  max-height: max-content;
-  background: #ffffff;
-  padding: 100px 100px;
-  border-radius: 20px;
-  box-shadow: 25px 45px 60px rgba(0, 0, 0, 0.2);
-  margin: 50px auto;
-  text-align: center;
+    max-width:max-content;
+    background: #ffffff;
+    padding: 40px 50px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+    margin: 100px auto;
+    text-align: center;
   
 }
 

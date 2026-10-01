@@ -29,8 +29,8 @@ formR.addEventListener("submit", (e) => {
         Nascimento: birth
     }
 
-    users.push(users);
-    localStorage.setItem("user",JSON.stringify(users))   
+    users.push(user);
+    localStorage.setItem("users", JSON.stringify(users));
 
 })
 }
